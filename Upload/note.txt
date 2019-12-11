@@ -1,0 +1,31 @@
+RESULTS
+RESULTS AND DISCUSSION 
+CONCLUSION
+DISCUSSION AND CONCLUSION 
+ASSOCIATED CONTENT 
+AUTHOR INFORMATION 
+ACKNOWLEDGMENTS
+ACKNOWLEDGEMENT
+REFERENCES
+
+
+
+EXPERIMENTAL SECTION 
+EXPERIMENTAL
+METHODS 
+MATERIALS AND METHODS 
+Synthesis 
+
+
+(CON  SUBSTAGE\(1\))(.*?)(\n)
+(SUBSTAGE\(2\))(.*?)(\n)
+(CON)(.*?)(\n)
+
+
+
+<\?xml version="1.0" encoding="UTF-8" \?>(.*?)<\?xpacket end='r'\?>
+<Figure>(.*?)</Figure>
+\((.\n)<Link>(.*?)</Link>(.*?)\)
+<Link>(.*?)</Link>
+
+

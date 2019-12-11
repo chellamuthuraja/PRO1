@@ -1,0 +1,131 @@
+﻿/**********************************
+ * Content Boxes
+ **********************************/
+
+.contentBox_NW
+{
+	background-image: url(IMAGES/ColoredBox/corner_nw.gif);
+	background: url('IMAGES/ColoredBox/corner_nw.gif');
+	background-repeat:no-repeat;
+}
+
+.contentBox_NW2
+{
+	background-image: url(IMAGES/ColoredBox/corner_nw2.gif);
+	background-repeat:no-repeat;
+}
+
+.contentBox_N
+{
+	background-image: url(IMAGES/ColoredBox/repeat_north.gif);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 9pt;
+	vertical-align:bottom;
+	text-align:left;
+	height:21px;
+}
+
+.contentBox_Lnkbtn
+{
+    background-color: #eae6db;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    color: #5d1f00;
+    font-family: Trebuchet MS;
+    font-size: 9pt;
+    vertical-align: middle;
+    text-align: center;
+    border-color: #ae5403;
+    border-width: 1px;
+    border-style: solid;
+    height: 19px;
+}
+
+.contentBox_Lnkbtn1
+{
+    border: 1px solid #006666;
+    background-color: #DAEBE4;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    color: #006600;
+    font-family: Trebuchet MS;
+    font-size: 9pt;
+    vertical-align: middle;
+    text-align: center;
+    height: 19px;
+}
+
+.contentBox_N .Head
+{
+	color:white;
+	vertical-align:bottom;
+}
+
+.contentBox_NE
+{
+	background-image: url(IMAGES/ColoredBox/corner_ne.gif);
+	background-repeat:no-repeat;
+}
+
+.contentBox_NE2
+{
+	background-image: url(IMAGES/ColoredBox/corner_ne2.gif);
+	background-repeat:no-repeat;
+}
+
+.contentBox_E
+{
+	background-image: url(IMAGES/ColoredBox/repeat_east.gif);
+	background-repeat: repeat-y;
+
+}
+
+.contentBox_Middle
+{
+	background-color:White;
+	font-family:Trebuchet MS;
+	font-size: 9pt;
+}
+
+.contentBox_W
+{
+	background-image: url(IMAGES/ColoredBox/repeat_west.gif);
+	background-repeat: repeat-y;
+}
+
+.contentBox_SW
+{
+	background-image: url(IMAGES/ColoredBox/corner_sw.gif);
+	background-repeat: no-repeat;
+}
+
+.contentBox_S
+{
+	background-image: url(IMAGES/ColoredBox/repeat_south.gif);
+	background-repeat:repeat-x;
+}
+
+.contentBox_SE
+{
+	background-image: url(IMAGES/ColoredBox/corner_se.gif);
+	background-repeat: no-repeat;
+}
+
+.contentBox_TopRow
+{
+	height:21px;
+}
+
+.contentBox_2ndRow
+{
+	height:11px;
+}
+
+.contentBox_BottomRow
+{
+	height:16px;
+}
+

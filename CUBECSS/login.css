@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
+
+/* ####### */
+/* $LOGIN  */
+/* ####### */
+/* line 80, ../sass/typica-login.scss */
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  display: block;
+  margin-top: -30px;
+  margin-left: -80px;
+  padding: 25px;
+  width: 280px;
+  height: 210px;
+  background: white;
+  background-color:transparent;
+  text-align: center;
+  
+}

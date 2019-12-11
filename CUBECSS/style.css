@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'dinlight';
+    src: url('dinlig-webfont.eot');
+    src: url('dinlig-webfont.eot?#iefix') format('embedded-opentype'),
+    url('dinlig-webfont.woff') format('woff'),
+    url('dinlig-webfont.ttf') format('truetype'),
+    url('dinlig-webfont.svg#dinlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dinmedium';
+    src: url('dinmed-webfont.eot');
+    src: url('dinmed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('dinmed-webfont.woff') format('woff'),
+    url('dinmed-webfont.ttf') format('truetype'),
+    url('dinmed-webfont.svg#dinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

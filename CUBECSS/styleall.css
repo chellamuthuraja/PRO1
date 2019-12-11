@@ -1,0 +1,409 @@
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #999;
+    margin-top: 10px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 50px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.mtb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mtb2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ptb {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mr {
+    margin-right: 15px;
+}
+
+.mbless {
+    padding-bottom: 0;
+}
+
+.mb40 {
+    margin-bottom: 20px;
+    font-size: 150% !important;
+}
+
+.bigicon {
+    font-size: 50px;
+}
+
+.codebox {
+    text-align: left;
+    background-color: #181818;
+    color: #b9b9b9;
+    margin-bottom: 20px;
+}
+
+.hlcode {
+    color: #f7ca18;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.yellow {
+    color: #f7ca18;
+    text-decoration: underline;
+    font-size: 75%;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #2B2E31;
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #2B2E31;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+    color: #1abc9c;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #696E74;
+}
+
+.nopadding {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+/* FORM CONFIGURATION */
+
+input {
+    font-size: 16px;
+    min-height: 30px;
+    border-radius: 2px;
+    line-height: 10px;
+    padding: 8px 10px 9px;
+    border: 1px solid #b9b9af;
+    margin-bottom: 10px;
+    background-color: #fff;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.subscribe-input {
+    float: left;
+    width: 65%;
+    text-align: left;
+    margin-right: 2px;
+}
+
+.subscribe-submit {
+    right: 0;
+}
+
+.btn-subscribe {
+    background: #f7ca18;
+    color: white;
+    border-radius: 50px;
+    margin-left: 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 11px 28px 10px 28px;
+}
+
+/* Buttons Configuration */
+.btn-conf {
+    border-radius: 50px;
+    margin-right: 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 11px 28px 10px 28px;
+}
+
+.btn-theme {
+    background: #f7ca18;
+    color: white
+}
+
+.btn-spacebelow {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: black;
+}
+
+/* Bootstrap Modification */
+
+hr {
+    border: 1px solid #5a5a5a;
+    width: 70px;
+}
+
+/* HEADER CONFIGURATION - CREATED BY CODROPS */
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.demo-1 .large-header {
+    background-image: url('../img/Chemner.jpg');
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.main-tagline {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 52%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    font-size: 18px;
+}
+
+.main-tagline.text {
+    color: #f9f1e9;
+    font-size: 150% !important;
+}
+
+.demo-1 .main-title {
+    /* text-transform: uppercase; */
+    font-size: 42px;
+    letter-spacing: 4px;
+}
+
+.main-title .thin {
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 768px) {
+    .demo-1 .main-title {
+        display:none;
+    }
+    .demo-1 .main-tagline {
+        top:52%;
+        width: 100%;
+    }
+    .demo-1 .main-tagline.text {
+        font-size: 16px !important;
+    }
+}
+
+.text {
+    padding: 0;
+  margin-bottom: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999;
+  margin-top: 10px;
+
+}
+
+/* BLACK SECTION */
+.blk {
+    background: #192533;          
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.blk h5 {
+    color: #f7ca18;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.blk hr {
+    border: 1px solid #f7ca18;
+    width: 100px;
+}
+
+/* CLIENTS SECTION */
+.blk2 {
+    /*background: #181818;*/
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: #999;
+}
+
+.blk2 h5 {
+    color: #f7ca18;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.blk2 h6 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.blk2 hr {
+    border: 1px solid #f7ca18;
+    width: 100px;
+}
+
+.wht {
+    background: white;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.wht h5 {
+    color: #f7ca18;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.wht hr {
+    border: 1px solid #f7ca18;
+    width: 100px;
+}
+
+/* Grey Section */
+.grey {
+    background: #f3f3f3;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.grey h5 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*img {*/
+/*margin-left: 50px;*/
+/*}*/
+
+/* GREY Spacer */
+#greyspacer {
+    background-color: #F3F3F3;
+}
+
+#greyspacer .row {
+    min-height: 40px;
+}
+
+/* z-index does not work with fixed elements around... */
+div.container.messages-container {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 200;
+}
